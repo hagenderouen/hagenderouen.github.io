@@ -1,0 +1,37 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    color: gray
+}
+
+main {
+    text-align: center;
+}
+
+.main-header {
+    margin-bottom: 0px;
+}
+
+.name {
+    margin-top: 0px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+
