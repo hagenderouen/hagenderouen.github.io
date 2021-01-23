@@ -1,0 +1,13 @@
+body, .navbar {
+    color: white;
+    background-color: #110f17;
+}
+
+.card-body {
+    color: black;   
+}
+
+section {
+    margin-bottom: 10rem;    
+}
+
