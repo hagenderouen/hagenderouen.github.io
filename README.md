@@ -1,5 +1,6 @@
 # hagenderouen.gihub.io
-My portoflio site.
+
+My old portoflio website. Check out my latest one <a href="https://myreactportfoliomain.gatsbyjs.io/">here</a>.
 
 <img src="./assets/images/site-screenshot.png" style="width:450px">
 
