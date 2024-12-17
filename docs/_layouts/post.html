@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+ {% include head.html %}
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title }}</h1>
+      <h2 class="project-tagline">{{ page.description }}</h2>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      {% include footer.html %}
+    </main>
+    
+    {% if page.include_scripts %}
+      {% for include_script in page.include_scripts %}
+        <script type='text/javascript' src='{{ include_script }}'></script>
+      {% endfor %}
+    {% endif %}
+  </body>
+</html>
